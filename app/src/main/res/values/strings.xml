@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assistron</string>
+    <string name="title_activity_maps_location">Map</string>
+    <string name="title_activity_maps_dest">Map</string>
+    <string name="speech_prompt">Speak</string>
+    <string name="speech_not_supported">Speech not Supported</string>
+</resources>

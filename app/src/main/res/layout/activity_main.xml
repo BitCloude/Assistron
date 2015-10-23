@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#7a0b10">
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/butCall"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Make a Call " />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/butCalender"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignStart="@+id/butCall"
+        android:layout_below="@+id/butCall"
+        android:text="Show Calender, Set Reminder" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/butBrowse"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignStart="@+id/butCalender"
+        android:layout_below="@+id/butCalender"
+        android:text="Open Browser" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/butAdr"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/butBrowse"
+        android:layout_centerHorizontal="true"
+        android:text="Manage Address Book" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/butLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/butAdr"
+        android:layout_centerHorizontal="true"
+        android:text="Show my Location, Take me Somewhere" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/butSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/butLocation"
+        android:layout_centerHorizontal="true"
+        android:text="SEND-READ SMS Message" />
+</LinearLayout>
